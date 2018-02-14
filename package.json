@@ -1,0 +1,10 @@
+{
+  "name": "radio-streaming-bot",
+  "version": "1.0",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.6"
+  }
+}
