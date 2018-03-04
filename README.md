@@ -6,7 +6,7 @@ A bot built on Discord.js to play Radio Streams!
 
 1. Download or clone this repository..
 2. Run the install.bat file.. This may take a while.
-3. Fill out the details in bot.json.
+3. Fill out the details in config.json.
 4. Run start.bat
  
 <b>The bot is now up and running and ready to use!</b> 
