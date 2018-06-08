@@ -1,15 +1,1 @@
-"env": {
-        "token": {
-            "description": "Your token. To get your token read this: https://github.com/Favna/Discord-Self-Bot/wiki/Installation-&-Setup#grabbing-your-discord-account-token"
-        },
-        "owner": {
-            "description": "Your User ID. To get your ID enable \"Developer Mode\" in Discord Settings -> Appearance -> Developer Mode then right click your own name anywhere and click \"Copy ID\""
-        },
-        "heroku": {
-            "description": "Name you are giving this app? Case sensitive! Exact name as above!",
-            "required": true
-        },
-        "prefix": {
-            "description": "An optional global prefix",
-            "default": "$",
-            "required": false
+{"token":"process.env.token","clientid":"process.env.clientid","prefix":"process.env.prefix","ownerID":"process.env.ownerid"}
