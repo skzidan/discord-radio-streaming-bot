@@ -3,7 +3,7 @@ const ffmpeg = require("ffmpeg-binaries");
 const opusscript = require("opusscript");
 const client = new Discord.Client();
 const fs = require("fs");
-const config = require("./config.json");
+const token = process.env.token;
 
 
 /*/ Start of loading events /*/
@@ -32,4 +32,4 @@ client.on("message", message => {
 /*/ End of loading commands /*/
 
 /*/* Login as the bot. /*/
-client.login(config.token);
+client.login(token).catch(err => console.log(err));
