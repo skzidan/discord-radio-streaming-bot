@@ -12,7 +12,3 @@ A bot built on Discord.js to play Radio Streams!
 4. Run start.bat
  
 <b>The bot is now up and running and ready to use!</b> 
-
-<b>Screenshots</b>
-
-![Missing Image.](https://lordejerry.com/I/v70YzjDAq1nXyFKK.png)
